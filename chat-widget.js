@@ -1,7 +1,7 @@
 (function(){
 if(document.getElementById('mz-chat-main'))return;
 const cs=document.currentScript||(function(){const s=document.getElementsByTagName('script');return s[s.length-1];})();
-const lk=cs.getAttribute('mz_WhnfuwcYfXqF4iIe0M9uUKcx');
+const lk=cs.getAttribute('data-license');
 if(!lk)return;
 const gu="https://script.google.com/macros/s/AKfycbyvFJa5mm6h6ItguM9my0JjWzck2W6zd62rfEyGl6xRWZu_RgRVY36pHAeHjM1GcUx4/exec";
 const ab=`${gu}?license=${lk}`;
