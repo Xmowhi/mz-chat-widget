@@ -3,7 +3,7 @@ if(document.getElementById('mz-chat-main'))return;
 const cs=document.currentScript||(function(){const s=document.getElementsByTagName('script');return s[s.length-1];})();
 const lk=cs.getAttribute('data-license');
 if(!lk)return;
-const gu="https://script.google.com/macros/s/AKfycbxSx62MPhYznppxBzS8z5XtsUtJtHBLoqfe3z6yVkAhrjmUbvAYRug0mzsKgv5tzw3Ybw/exec";
+const gu="https://script.google.com/macros/s/AKfycbyvFJa5mm6h6ItguM9my0JjWzck2W6zd62rfEyGl6xRWZu_RgRVY36pHAeHjM1GcUx4/exec";
 const ab=`${gu}?license=${lk}`;
 const st=document.createElement('style');
 st.innerHTML=`
